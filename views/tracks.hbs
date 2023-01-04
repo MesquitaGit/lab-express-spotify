@@ -1,0 +1,15 @@
+
+    <table class="table table-dark">
+      <thead>
+        <th>#</th>
+        <th>Song</th>
+        <th>Play</th>
+      </thead>
+      <tbody>
+        {{#each artistTracks}}
+        
+        {{> tracksCard this}}
+
+        {{/each}}
+      </tbody>
+    </table>
